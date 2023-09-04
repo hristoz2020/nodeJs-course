@@ -1,0 +1,42 @@
+{
+  "546600813": {
+    "name": "Product 2 ",
+    "price": 10
+  },
+  "asfsaf1r31413fds": {
+    "name": "Widget",
+    "price": 12
+  },
+  "asfsaasdaf3fds": {
+    "name": "CD Player",
+    "price": 42
+  },
+  "10142751097": {
+    "name": "Product 1 ",
+    "price": 199
+  },
+  "315861515714": {
+    "name": "",
+    "price": 0
+  },
+  "51510132141413": {
+    "name": "Pesho",
+    "price": 21
+  },
+  "71315610748": {
+    "name": "test",
+    "price": 12
+  },
+  "=546600813": {
+    "name": "{{{name}}}das",
+    "price": 3
+  },
+  "==546600813": {
+    "name": "{{{name}}}",
+    "price": 0
+  },
+  "===546600813": {
+    "name": "{{{name}}}",
+    "price": 0
+  }
+}
