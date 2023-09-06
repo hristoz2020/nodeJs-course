@@ -1,0 +1,14 @@
+{
+  "4d4535fd-9fa7": {
+    "name": "BMW E46 320d",
+    "description": "217 000km. Very fast car. Manual transmision.",
+    "imageUrl": "bmw_e46.jpeg",
+    "price": 7999
+  },
+  "c4f8a5ab-5533": {
+    "name": "BMW E90 330",
+    "description": "200 000km. The answer almost certainly depends on what you want out of a 3-Series. If you're a club racer, chances are that you're completely satisfied with the E30 or E36; the newer cars are just too big and heavy. ",
+    "imageUrl": "bmw_e90.jpeg",
+    "price": 12000
+  }
+}
