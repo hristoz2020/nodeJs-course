@@ -25,6 +25,7 @@ module.exports = {
 			await req.storage.updateById(id, car);
 			res.redirect("/");
 		} catch (error) {
+			console.log(err.message);
 			res.redirect("/404");
 		}
 	},
