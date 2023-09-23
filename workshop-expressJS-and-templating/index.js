@@ -5,6 +5,7 @@ const initDb = require("./models/index");
 
 const carsService = require("./services/cars");
 const accessoryService = require("./services/accessory");
+const authService = require("./services/auth");
 
 const { about } = require("./controllers/about");
 const create = require("./controllers/create");
@@ -14,6 +15,14 @@ const deleteCar = require("./controllers/remove");
 const editCar = require("./controllers/edit");
 const accessory = require("./controllers/accessory");
 const attach = require("./controllers/attach");
+const {
+	registerGet,
+	registerPost,
+	loginGet,
+	loginPost,
+	logoutGet,
+} = require("./controllers/auth");
+
 const { notFound } = require("./controllers/notFound");
 
 start();
@@ -35,6 +44,7 @@ async function start() {
 	app.use("/static", exporess.static("static"));
 	app.use(carsService());
 	app.use(accessoryService());
+	app.use(authService());
 
 	app.get("/", home);
 	app.get("/about", about);
@@ -45,6 +55,8 @@ async function start() {
 	app.route("/edit/:id").get(editCar.get).post(editCar.post);
 	app.route("/accessory").get(accessory.get).post(accessory.post);
 	app.route("/attach/:id").get(attach.get).post(attach.post);
+	app.route("/register").get(registerGet).post(registerPost);
+	app.route("/login").get(loginGet).post(loginPost);
 
 	app.get("*", notFound);
 
