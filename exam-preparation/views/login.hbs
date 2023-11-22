@@ -3,14 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Home Page</title>
+    <title>Login Page</title>
 
     <!-- Do not forget to change the path to the css file -->
     <link href="./static/css/style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-
 
     <div id="box">
 
@@ -42,32 +41,33 @@
 
         <main>
 
-            <section id="home">
-                <div class="home-container">
+            <section id="login-page">
 
-                    <div class="short-info">
-                        <h1>The best of the wildlife photography.</h1>
-                        <h2>Share knowledge about the environment and enrich your life.</h2>
+                <div class="loginSection">
+                    <div class="info">
+                        <h2>Welcome, again!</h2>
+                        <p>View new posts.</p>
                     </div>
+                    <form action="#" method="" class="loginForm">
+                        <h2>Login</h2>
+                        <ul class="noBullet">
+                            <li>
+                                <label for="email">Email:</label>
+                                <input type="text" class="inputFields" id="email" name="" placeholder="alex@gmail.com" />
+                            </li>
+                            <li>
+                                <label for="password">Password:</label>
+                                <input type="password" class="inputFields" id="password" name="" placeholder="*******" />
+                            </li>
 
+                            <li id="center-btn">
+                                <button id="login-btn">Login</button>
+                            </li>
+                        </ul>
+                    </form>
                 </div>
-            </section>
-
-            <section id="home-page">
-
-                <div class="offers">
-                    <!-- Do not forget to change the path to the image -->
-                    <div class="col container"><img src="./static/img/nature1.jpg" alt="nature_1"></div>
-                    <!-- Do not forget to change the path to the image -->
-                    <div class="col container"><img src="./static/img/nature2.jpg" alt="nature_2"></div>
-                    <!-- Do not forget to change the path to the image -->
-                    <div class="col container"><img src="./static/img/nature3.jpg" alt="nature_3"></div>
-                    <!-- Do not forget to change the path to the image -->
-                    <div class="col container"><img src="./static/img/nature4.jpg" alt="nature_4"></div>
-                </div>
 
             </section>
-
 
         </main>
 
