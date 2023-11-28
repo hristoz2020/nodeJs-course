@@ -1,4 +1,4 @@
-function mapErrors() {
+function mapErrors(err) {
 	if (Array.isArray(err)) {
 		return err;
 	} else if (err.name == "ValidatorError") {
