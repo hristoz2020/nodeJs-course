@@ -1,10 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
-const cors = require('./middlewares/cors');
-const catalogController = require('./controllers/catalog');
-const usersController = require('./controllers/users');
-const auth = require('./middlewares/auth');
+const cors = require('./src/middlewares/cors');
+const catalogController = require('./src/controllers/catalog');
+const usersController = require('./src/controllers/users');
+const auth = require('./src/middlewares/auth');
 
 
 start();

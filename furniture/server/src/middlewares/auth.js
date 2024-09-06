@@ -10,6 +10,6 @@ module.exports = () => (req, res, next) => {
         }
         next();
     } catch (err) {
-        res.status(401).json({ message: 'Invalid access token. Please sign in' });
+        res.status(498).json({ message: 'Invalid access token. Please sign in' });
     }
 };
